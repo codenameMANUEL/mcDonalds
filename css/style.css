@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Home page starts here */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 110px;
+    box-shadow: 0px 2px #e4e3e3b8;
+}
+.list-items ul{
+    display: flex;
+}
+.list-items li{
+    margin: 60px 15px;
+}
+.btn{
+    padding: 12px 0px 0px 0px;
+}
+.btn button{
+    background-color: #ffbc0d;
+    padding: 7px 35px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section-one{
+    display: flex;
+    padding: 100px 40px 0px 60px;
+}
+.section-one-image img{
+    width: 750px;
+}
+.section-one-text{
+    padding: 0px 10px 20px 30px;
+}
+.section-one-text h1{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.section-one-text-p1{
+    font-size: 16px;
+    padding-top: 20px;
+}
+.section-one-text-p2{
+    font-size: 10px;
+    padding: 25px 0px 9px 0px;
+}
+.section-one-btn{
+    padding-top: 40px;
+}
+.section-one-btn button{
+    background-color: #ffbc0d;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+}
+.section-two{
+    display: flex;
+    padding: 150px 40px 0px 60px;
+}
+.section-one-text-p1 span a{
+    color: #006bae;
+}
+.section-three{
+    display: flex;
+    padding: 150px 40px 0px 60px;
+}
+.section-four{
+    display: flex;
+    padding: 150px 40px 100px 60px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 50px 60px;
+}
+.head-list-items{
+    font-size: 17px;
+    font-weight: bolder;
+    padding-bottom: 18px;
+}
+footer li{
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.socials{
+    display: flex;
+    padding: 0px 40px 50px 60px;
+    justify-content: space-between;
+} 
+.socials-img {
+    display: flex;
+}
+.socials-img li{
+    margin: 0px 8px;
+}
+.hori-line{
+    padding: 0px 40px 50px 60px;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px 50px 80px;
+}
+.footer-list-items ul{
+    display: flex;
+}
+.footer-list-items li{
+    margin: 0px 15px;
+}
+.footer-list-items2{
+    padding-top: 20px;
+}
+.last-footer-right{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-img img{
+    margin-top: -2px;
+    width: 28px;
+    padding-right: 50px;
+}
+.Reserved{
+    display: flex;
+    float: right;
+}
+
+/* home page stops here */
+
+.intro h1{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.intro-p1{
+    padding: 40px 40px 0px 60px;
+}
+.intro-p2{
+    padding: 20px 40px 0px 60px;
+    font-size: 10px;
+}
+.intro-p2 span{
+    color: #006bae;
+    text-decoration: underline;
+}
+.intro2{
+    padding: 20px 40px 0px 60px;
+}
+.intro2 h2{
+    padding-top: 20px;
+    font-size: 30px;
+}
+.intro2 p{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.rewardpoints{
+    display: flex;
+    padding: 20px 40px 0px 60px;
+}
+.rewardpoints-left-head{
+    font-size: 35px;
+}
+.rewardpoints-left-p span{
+    color: #006bae;
+    text-decoration: underline;
+}
+.rewardpoints-left-p{
+    padding: 25px 28px 0px 0px;
+    font-size: 16px;
+}
+.rewardpoints-center{
+    padding-left: 20px;
+}
+.rewardpoints-center-p1{
+    padding: 25px 28px 0px 0px;
+    font-size: 16px;
+}
+.rewardpoints-center-p2{
+    font-size: 10px;
+    padding: 20px 20px 0px 0px;
+}
+.points{
+    display: flex;
+    padding: 20px 40px 100px 40px;
+}
+.points-left h3{
+    padding-top: 35px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.points-left p{
+    padding: 0px 30px 0px 0px;
+}
+.points-left span{
+    color: #006bae;
+    text-decoration: underline;
+}
+.points-right h3{
+    padding-top: 35px;
+    font-size: 38px;
+    font-weight: 400;
+}
+.points-left p{
+    padding-top: 15px;
+}
+.points-right p{
+    padding-top: 15px;
+}
+.points-right-p{
+    font-size: 10px;
+}
+.points-left span{
+    color: #006bae;
+    text-decoration: unline;
+}
+.points-two img{
+    margin: 0px 15px;
+}
